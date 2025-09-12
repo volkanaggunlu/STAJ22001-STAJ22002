@@ -1,0 +1,44 @@
+# Use root/example as user/password credentials
+services:
+
+  node:
+    image: "node:23-alpine3.20"
+    user: "node"
+    working_dir: /app
+    environment:
+      NODE_ENV: ${NODE_ENV}
+    volumes:
+      - ./:/app
+    ports:
+      - "8888:8888"
+    command: sh /app/start.sh
+
+
+  mongo:
+    image: mongo:7.0.14-rc0-jammy
+    restart: always
+    ports:
+      - 27017:27017
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
+    volumes:
+      - ./data:/data/db
+
+  mongo-express:
+    image: mongo-express:1.0.2-20-alpine3.19
+    restart: always
+    ports:
+      - 34366:8081
+    environment:
+      ME_CONFIG_MONGODB_ADMINUSERNAME: root
+      ME_CONFIG_MONGODB_ADMINPASSWORD: example
+      ME_CONFIG_MONGODB_URL: mongodb://root:example@mongo:27017/
+      ME_CONFIG_BASICAUTH_USERNAME: Ahtapot#Ayhan
+      ME_CONFIG_BASICAUTH_PASSWORD: Tursuhan!434!Tursunaz
+      VCAP_APP_HOST: 0.0.0.0
+
+      
+
+volumes:
+  data:

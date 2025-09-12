@@ -1,0 +1,19 @@
+{
+    _id: ObjectId('66ded6ee9baffa44451db492'),
+    email: 'qusdfsta@gmail.com',
+    password: '$2a$12$wuvyUFHcOCCbavkFzxnwxuzvija8WOZux9mH/kiDfUGfONpp0ZPMW',
+    name: 'adsız kimlik',
+    surname: 'Celik',
+    phone: '5433643673',
+    role: 'admin',
+    orderHistory: [],
+    tokens: [
+        {
+            token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmRlZDZlZTliYWZmYTQ0NDUxZGI0OTIiLCJpYXQiOjE3MjU4ODAwNDYsImV4cCI6MTcyNTk2NjQ0Nn0.JbXJtxf-2fxErScarUGe4WSqld6_4FOO_NDtSlWFYfY',
+            _id: ObjectId('66ded6ee9baffa44451db494')
+        }
+    ],
+    createdAt: ISODate('2024-09-09T11:07:26.065Z'),
+    updatedAt: ISODate('2024-09-09T11:07:26.488Z'),
+    __v: 1
+}

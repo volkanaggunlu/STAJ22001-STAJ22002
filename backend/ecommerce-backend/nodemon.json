@@ -1,0 +1,14 @@
+{
+    "watch": [
+        "./"
+    ],
+    "ext": "js,json",
+    "ignore": [
+        "node_modules",
+        "tests",
+        "public",
+        "query"
+    ],
+    "exec": "node src/app.js",
+    "legacyWatch": true
+}

@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, html {
+  font-family: 'Jura', sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3.9%;
+    --primary: 48 98% 67%; /* #fed233 ana renk */
+    --primary2: 48 98% 90%
+    --primary-foreground: 0 0% 20%; /* koyu gri/siyah */
+    --secondary: 48 98% 90%; /* açık sarı tonu */
+    --secondary-foreground: 0 0% 20%;
+    --muted: 48 98% 96%;
+    --muted-foreground: 0 0% 45.1%;
+    --accent: 48 98% 80%; /* sarı accent */
+    --accent-foreground: 0 0% 20%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 48 98% 80%;
+    --input: 48 98% 90%;
+    --ring: 48 98% 60%;
+    --chart-1: 48 98% 60%;
+    --chart-2: 48 98% 80%;
+    --chart-3: 48 98% 90%;
+    --chart-4: 48 98% 70%;
+    --chart-5: 48 98% 50%;
+    --radius: 0.5rem;
+    --sidebar-background: 48 98% 96%;
+    --sidebar-foreground: 0 0% 20%;
+    --sidebar-primary: 48 98% 60%;
+    --sidebar-primary-foreground: 0 0% 20%;
+    --sidebar-accent: 48 98% 80%;
+    --sidebar-accent-foreground: 0 0% 20%;
+    --sidebar-border: 48 98% 80%;
+    --sidebar-ring: 48 98% 60%;
+  }
+  .dark {
+    --background: 0 0% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 48 98% 60%;
+    --primary-foreground: 0 0% 10%;
+    --secondary: 48 98% 20%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 48 98% 14.9%;
+    --muted-foreground: 0 0% 63.9%;
+    --accent: 48 98% 40%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 48 98% 40%;
+    --input: 48 98% 20%;
+    --ring: 48 98% 60%;
+    --chart-1: 48 98% 60%;
+    --chart-2: 48 98% 40%;
+    --chart-3: 48 98% 20%;
+    --chart-4: 48 98% 70%;
+    --chart-5: 48 98% 50%;
+    --sidebar-background: 48 98% 20%;
+    --sidebar-foreground: 0 0% 98%;
+    --sidebar-primary: 48 98% 60%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 48 98% 40%;
+    --sidebar-accent-foreground: 0 0% 98%;
+    --sidebar-border: 48 98% 40%;
+    --sidebar-ring: 48 98% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
