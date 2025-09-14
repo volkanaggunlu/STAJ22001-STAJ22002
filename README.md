@@ -79,13 +79,13 @@ cp example.env.local .env.local
 ### 3. Bağımlılıkları Kurun
 # Backend
 
-cd backend
-npm install
+-  cd backend
+- npm install
 
 # Frontend
 
-cd frontend
-npm install
+- cd frontend
+- npm install
 
 ### 4. Veritabanını Başlatın
 
@@ -94,10 +94,10 @@ MongoDB’nin çalıştığından emin olun. (Lokal veya bağlantı adresinizi .
 ### 5. Uygulamayı Başlatın
 
 Backend
-npm run dev
+- npm run dev
 
 Frontend
-npm run dev
+- npm run dev
 
 🔗 Backend Kullanımı
 API endpointleri için API_DOCUMENTATION.md ve docs/ klasörüne bakınız.
@@ -108,7 +108,7 @@ Seed ve scriptler için scripts/ klasörünü inceleyin.
 🎨 Frontend Kullanımı
 
 Geliştirme sunucusu için:
-npm run dev
+- npm run dev
 
 # NOT: Port çakışması olmaması için frontend ve backend ayrı ayrı çalıştırılması önerilir.
 
