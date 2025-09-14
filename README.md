@@ -134,7 +134,7 @@ STAJ22001-STAJ22002-Proje/
 ```
 
 
-
+```
 ### 📖 API Dokümantasyonu
 Tüm endpointler ve örnek istekler için:
 API_DOCUMENTATION.md
@@ -146,3 +146,4 @@ Fork'layın ve yeni bir branch oluşturun.
 Değişikliklerinizi yapın.
 Testleri çalıştırın.
 Pull request gönderin.
+```
