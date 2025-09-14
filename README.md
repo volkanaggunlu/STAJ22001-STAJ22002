@@ -69,12 +69,12 @@ git clone <repo-url> cd <proje-dizini>
 Her iki proje için de .env dosyalarını örneklerden kopyalayın ve doldurun:
 
 # Backend için
-cd backend/ecommerce-backend
-cp .env.example .env
+- cd backend/ecommerce-backend
+- cp .env.example .env
 
 # Frontend için
-cd /frontend/ecommerce-frontend
-cp example.env.local .env.local
+- cd /frontend/ecommerce-frontend
+- cp example.env.local .env.local
 
 ### 3. Bağımlılıkları Kurun
 # Backend
