@@ -73,7 +73,7 @@ cd backend/ecommerce-backend
 cp .env.example .env
 
 # Frontend için
-cd ../../frontend/ecommerce-frontend
+cd /frontend/ecommerce-frontend
 cp example.env.local .env.local
 
 ### 3. Bağımlılıkları Kurun
