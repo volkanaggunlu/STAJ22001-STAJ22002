@@ -113,6 +113,9 @@ npm run dev
 # NOT: Port çakışması olmaması için frontend ve backend ayrı ayrı çalıştırılması önerilir.
 
 ### Dizin yapısı
+## 📂 Dizin Yapısı
+
+```text
 STAJ22001-STAJ22002-Proje/
 ├── backend/
 │   └── ecommerce-backend/
@@ -128,6 +131,7 @@ STAJ22001-STAJ22002-Proje/
 │       ├── lib/
 │       └── ...
 
+```
 
 
 
