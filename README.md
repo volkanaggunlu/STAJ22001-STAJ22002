@@ -110,7 +110,7 @@ Seed ve scriptler için scripts/ klasörünü inceleyin.
 Geliştirme sunucusu için:
 npm run dev
 
-# NOT: Port çakışması olmaması için forntend ve backend ayeı çalıştırılması önerilir.
+# NOT: Port çakışması olmaması için frontend ve backend ayrı ayrı çalıştırılması önerilir.
 
 ### Dizin yapısı
 STAJ22001-STAJ22002-Proje/
