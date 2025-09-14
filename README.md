@@ -115,18 +115,19 @@ npm run dev
 ### Dizin yapısı
 STAJ22001-STAJ22002-Proje/
 ├── backend/
-    └── ecommerce-backend/
-        ├── src/
-        ├── docs/
-        ├── scripts/
-        └── ...
+│   └── ecommerce-backend/
+│       ├── src/
+│       ├── docs/
+│       ├── scripts/
+│       └── ...
+│
+├── frontend/
+│   └── ecommerce-frontend/
+│       ├── app/
+│       ├── components/
+│       ├── lib/
+│       └── ...
 
-└── frontend/
-    ecommerce-frontend/
-        ├── app/
-        ├── components/
-        ├── lib/
-        └── ...
 
 
 
